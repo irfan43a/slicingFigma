@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <title>checkout</title>
+  </head>
+  <body>
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="homev1.html" style="color: #db3022; font-size: 24px; font-weight: bold"> <img src="/img/belanjavector.png" class="d-inline-block align-text-center" />Belanja </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex">
+          <input class="search" type="search" placeholder="Search " aria-label="Search" />
+          <button class="btn" type="submit" style="border-radius: 10px; border-color: #9b9b9b"><img src="/img/sort.png" /></button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="login">
+              <a class="nav-link active" aria-current="page" href="mybag.html"><img src="/img/mybag.png" class="d-inline-block align-text-center" /></a>
+            </li>
+            <li class="login">
+              <a class="nav-link active" aria-current="page" href=""><img src="/img/notif.png" class="d-inline-block align-text-center" /></a>
+            </li>
+            <li class="login">
+              <a class="nav-link active" aria-current="page" href=""><img src="/img/mail.png" class="d-inline-block align-text-center" /></a>
+            </li>
+            <li class="Signup">
+              <a class="nav-link active" aria-current="page" href="profile.html"><img src="/img/christian.png" class="d-inline-block align-text-center" style="border-radius: 100%; width: 30.29px" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <!-- conten start-->
+    <section class="container-bag">
+      <div class="item">
+        <h2>Checkout</h2>
+        <h6>Shiping Address</h6>
+        <div class="address">
+          <h6>Andreas Jane</h6>
+          <p>Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah, 53181 [Tokopedia Note: blok c 16] Sokaraja, Kab. Banyumas, 53181</p>
+        </div>
+        <button class="address-btn">Choose another address</button>
+        <div class="select">
+          <div class="product-item">
+            <div><input type="checkbox" /> <img src="img/formalsuitblack.png" style="width: 90px" alt="" /> Men's formal suit - Black</div>
+            <div><input type="checkbox" /> <img src="img/jaketjeans.png" style="width: 90px; height: 70px" alt="" /> Men's jacket jeans</div>
+          </div>
+          <div class="product-price">
+            <div>$ 20.0</div>
+            <div>$ 20.0</div>
+          </div>
+        </div>
+      </div>
+      <div class="summary">
+        <h3>Shooping summary</h3>
+        <label for="">Order</label> <input type="text" value="$40.0" style="width: 60px; border: 0" /> <label for="">Delivery</label> <input type="text" value="$5.0" style="width: 60px; border: 0" />
+        <button class="buy-btn">Buy</button>
+      </div>
+    </section>
+    <!-- content end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

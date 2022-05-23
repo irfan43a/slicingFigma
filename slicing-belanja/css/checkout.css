@@ -1,0 +1,106 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("/font/metropolis/Metropolish-Regular.otf") format("truetype");
+}
+body {
+  background-color: #ffff;
+  width: 1440px;
+  height: 900px;
+  top: -1753px;
+  left: -10367px;
+}
+nav {
+  width: 1440px;
+  height: 100px;
+}
+.navbar-brand a {
+  font-family: Metropolis;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-nav {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.search {
+  width: 507px;
+  height: 40px;
+  outline: none;
+  border-color: #8e8e93;
+  border-radius: 23px;
+  padding-left: 30px;
+  margin-right: 10px;
+}
+.buy-btn {
+  width: 322px;
+  height: 36px;
+  background-color: #db3022;
+  color: #ffffff;
+  border: 0;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.container-bag {
+  width: 1200px;
+  margin-top: 140px;
+  margin-left: 170px;
+  margin-right: auto;
+  /* background-color: aqua; */
+  box-sizing: border-box;
+  display: flex;
+}
+.item {
+  flex: 4;
+  order: 1;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex: 3;
+  order: 3;
+}
+.select {
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.product-item {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 80%;
+  /* background-color: rgb(255, 174, 127); */
+}
+.product-price {
+  display: flex;
+  flex-direction: column;
+  flex: 20%;
+  padding-top: 50px;
+  justify-content: space-around;
+  /* background-color: rgb(217, 255, 127); */
+}
+.address {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.address-btn {
+  width: 210px;
+  height: 36px;
+  background-color: white;
+  color: #9b9b9b;
+  border: 1;
+  border-color: #9b9b9b;
+  border-radius: 24px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
